@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "esm.sh",
+    "access-control-expose-headers": "X-TypeScript-Types",
+    "x-typescript-types": "https://cdn.esm.sh/v45/jsonschema@1.4.0/lib/index.d.ts",
+    "connection": "keep-alive",
+    "date": "Mon, 23 Aug 2021 14:50:59 GMT",
+    "vary": "Origin",
+    "content-type": "application/javascript; charset=utf-8",
+    "content-length": "194",
+    "cache-control": "private, max-age=600"
+  },
+  "url": "https://esm.sh/jsonschema"
+}

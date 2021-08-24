@@ -1,0 +1,3 @@
+/* esm.sh - jsonschema@1.4.0 */
+export * from "https://cdn.esm.sh/v45/jsonschema@1.4.0/deno/jsonschema.js";
+export { default } from "https://cdn.esm.sh/v45/jsonschema@1.4.0/deno/jsonschema.js";

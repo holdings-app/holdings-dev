@@ -1,0 +1,9 @@
+{
+  "https://cdn.esm.sh/v45/jsonschema@1.4.0/deno/jsonschema.js": "cb12e85032ead339e3ad8f1d6e46308d70aa42bfd60dbda1905c66a23d921a53",
+  "https://cdn.esm.sh/v45/jsonschema@1.4.0/lib/index.d.ts": "49c703393ea91d052d89f9a214bd8836b80fd2d7d06c27eee8e852582f707931",
+  "https://cdn.esm.sh/v45/punycode@2.1.1/deno/punycode.js": "aa02c93f6f5a7dab08f50303312f9938d351370c01f2ca6eddde74c20a79a72b",
+  "https://cdn.esm.sh/v45/querystring-es3@0.2.1/deno/querystring-es3.js": "db2f980e1c65eeab5ed829a63dbcebb3879ec7cc280b94db506b433c1405f0ef",
+  "https://cdn.esm.sh/v45/url@0.11.0/deno/url.js": "1bb36d0ae83813266d4e774ea620c6e62b2ca3f49f4b1042ea7db7e9573632bc",
+  "https://deno.land/std@0.67.0/hash/sha256.ts": "1eac016a9f67672da7ad83af1746f3f79a93e2c5001e08cc5f31919e9bfd8923",
+  "https://esm.sh/jsonschema": "490c2d26c6bab8318e71087550463d6764cbf25a4d6db5757a2d08cf966d8eb1"
+}

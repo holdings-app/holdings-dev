@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/javascript",
+    "cf-polished": "origSize=2359",
+    "cache-control": "public, max-age=31536000, immutable",
+    "transfer-encoding": "chunked",
+    "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+    "date": "Mon, 23 Aug 2021 14:50:59 GMT",
+    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=GxidSSIKosSbMZk63s26WuyGnxtOJ16wYkiIwaWQ%2Fk7MELF9AB4e2WEL%2BL2hBdHHsv1JFRmfi5lOvh9aya9XBGhEyWeGNgJsGWqfPemCtCica4IFdsDZlbFMKCa6\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "cf-cache-status": "HIT",
+    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "server": "cloudflare",
+    "last-modified": "Tue, 10 Aug 2021 19:08:18 GMT",
+    "cf-bgj": "minify",
+    "connection": "keep-alive",
+    "alt-svc": "h3-27=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3=\":443\"; ma=86400",
+    "vary": "Origin, Accept-Encoding",
+    "cf-ray": "68352808fc76385d-MAD",
+    "age": "86"
+  },
+  "url": "https://cdn.esm.sh/v45/querystring-es3@0.2.1/deno/querystring-es3.js"
+}
