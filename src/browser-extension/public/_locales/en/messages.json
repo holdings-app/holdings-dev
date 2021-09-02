@@ -2,5 +2,11 @@
   "tagline": {
     "message": "Holdings.dev Investment Tracking for developers",
     "description": "Holdings Tagline"
+  },
+  "sync_title": {
+    "message": "Holdings Sync"
+  },
+  "open_sync_page": {
+    "message": "Holdings.dev Sync"
   }
 }

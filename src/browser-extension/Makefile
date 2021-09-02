@@ -35,6 +35,7 @@ dist/unpacked/chrome/%.js: $(EXTENSION_SRC_DEPS) $(EXTENSION_BROKER_DEPS) $(CHRO
 build-chrome-extension: \
 	dist/unpacked/chrome/service_worker.js \
 	dist/unpacked/chrome/js/popup.js \
+	dist/unpacked/chrome/js/sync.js \
 	dist/unpacked/chrome/js/options.js \
 	dist/unpacked/chrome/js/brokers/degiro.js \
 	dist/unpacked/chrome/js/brokers/schwab.js \

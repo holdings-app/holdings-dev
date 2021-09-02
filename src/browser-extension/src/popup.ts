@@ -1,6 +1,7 @@
 import type { IStorage, Json } from "./types.ts";
 import l10n from "./l10n.ts";
 import { extension } from "./extension.ts";
+import { Debug } from "./debug.ts";
 
 extension.storage.sync.get(
   { count: 0 } as IStorage,
@@ -9,20 +10,18 @@ extension.storage.sync.get(
   },
 );
 
-const handleButton = () => {
-  // const sessionId = JSON.parse(localStorage.getItem("sessionId") || "");
-  // const res = await fetch(
-  //   `https://trader.degiro.nl/reporting/secure/v3/ca/51026485?intAccount=51026485&sessionId=${sessionId}`,
-  //   {
-  //     "referrer": "https://trader.degiro.nl/trader/",
-  //     "referrerPolicy": "strict-origin-when-cross-origin",
-  //     "body": null,
-  //     "method": "GET",
-  //     "mode": "cors",
-  //     "credentials": "include",
-  //   },
-  // );
+const handleOpenSyncPage = () => {
+  const debug = new Debug("internal", "Button");
+  debug.log("opening sync page");
+  extension.tabs.create({
+    url: extension.runtime.getURL("sync.html"),
+    active: true,
+  });
 
+  // openSyncPage
+}
+
+const handleButton = () => {
   // const json = await res.json();
   extension.storage.sync.get(["sessionId"], (items: Json) => {
     extension.runtime.sendMessage("", {
@@ -34,7 +33,6 @@ const handleButton = () => {
         type: "basic",
       },
     });
-    // const url = localStorage.getItem("sessionId");
   });
 };
 
@@ -42,6 +40,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const notifyButton = document.getElementById("notifyButton");
   if (notifyButton) {
     notifyButton.addEventListener("click", handleButton);
+  }
+  const openSyncPage = document.getElementById("openSyncPage");
+  if (openSyncPage) {
+    openSyncPage.addEventListener("click", handleOpenSyncPage);
   }
   l10n();
 });
